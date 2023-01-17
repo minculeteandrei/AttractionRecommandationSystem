@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="E-Library:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>E-Library</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="E-Library-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="E-Library:war exploded" />
+    </root>
+  </artifact>
+</component>
