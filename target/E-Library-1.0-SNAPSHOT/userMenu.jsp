@@ -21,5 +21,8 @@
     <div class="text-center" style="margin-top: 25px">
         <a href="userBooks.jsp" class="btn btn-outline-dark">My Books</a>
     </div>
+    <div class="text-center" style="margin-top: 25px">
+        <a href="${pageContext.request.contextPath}/recommend" class="btn btn-outline-dark">Recommendations</a>
+    </div>
 </body>
 </html>
